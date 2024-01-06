@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "505790733254",
+    "project_id": "octopols-coloc",
+    "storage_bucket": "octopols-coloc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505790733254:android:0b78c418fa40a7b0ca70c7",
+        "android_client_info": {
+          "package_name": "com.octopols.coloc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzNlFfwfJywbpcBRCelF5jxmpR6ejhdBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
