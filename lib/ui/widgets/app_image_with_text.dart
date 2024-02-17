@@ -9,13 +9,13 @@ class AppIconTitle extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-            child: Image.asset('images/tinder_icon.png'),
+            child: Image.asset('images/coloc_icon.png'),
             width: 32.0,
             height: 32.0,
           ),
           SizedBox(width: 5.0),
           Text(
-            'lorem',
+            'Coloc',
             style: Theme.of(context).textTheme.headline2,
           )
         ],

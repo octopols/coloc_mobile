@@ -25,8 +25,8 @@ class StartScreen extends StatelessWidget {
                   child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 20),
                     child: Text(
-                      'Lorel ipsum dolor sit amet, consectetur adipiscing elit. '
-                      'Nulla in orci justo. Curabitur ac gravida quam.',
+                      'Find your ideal university roommate with Coloc.'
+                      'Match based on preferences for a perfect living experience.',
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.bodyText1,
                     ),
