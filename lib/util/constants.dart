@@ -5,37 +5,49 @@ const kDefaultPadding = EdgeInsets.symmetric(
   horizontal: 26.0,
 );
 
-const kPrimaryColor = Color(0xFF1D1C1C);
+// Using default black for primary color
+const kPrimaryColor = Colors.black;
 const kSecondaryColor = Colors.white;
-const kAccentColor = Color(0xFFF4C470);
 
-const kColorPrimaryVariant = Color(0xFF424242);
+// Using a more neutral accent color
+const kAccentColor = Colors.blue; // Adjust as per preference
 
-const kBackgroundColor = Color(0xFF1D1C1C);
-const kBackgroundColorInt = 0xFF1D1C1C;
-const kFontFamily = 'Nunito';
+// Using a slightly lighter shade of black for primary variant
+const kColorPrimaryVariant = Colors.grey;
 
+// Using a neutral background color, inspired by Material You
+const kBackgroundColor = Color(0xFFE5E5E5);
+
+// You may adjust the background color int as per preference
+const kBackgroundColorInt = 0xFFE5E5E5;
+
+// Using default font family
+const kFontFamily = 'GoogleSans';
+
+// Keeping the default text theme
 const kTextTheme = TextTheme(
   headline1: TextStyle(),
   bodyText1: TextStyle(),
   bodyText2: TextStyle(),
 );
 
+// Using neutral button colors, you can adjust as per preference
 const kButtonTheme = ButtonThemeData(
   splashColor: Colors.transparent,
   padding: EdgeInsets.symmetric(vertical: 14),
-  buttonColor: Color(0xFFF4C470),
+  buttonColor: Colors.blue, // Adjust as per preference
   textTheme: ButtonTextTheme.accent,
-  highlightColor: Color.fromRGBO(0, 0, 0, .3),
-  focusColor: Color.fromRGBO(0, 0, 0, .3),
+  highlightColor: Color(0x4C000000), // 30% opacity of black
+  focusColor: Color(0x4C000000), // 30% opacity of black
 );
 
+// Material You inspired colors, you may adjust as per preference
 const Map<int, Color> kThemeMaterialColor = {
   50: Color.fromRGBO(0, 0, 0, .1),
   100: Color.fromRGBO(0, 0, 0, .2),
   200: Color.fromRGBO(0, 0, 0, .3),
   300: Color.fromRGBO(0, 0, 0, .4),
-  000: Color.fromRGBO(0, 0, 0, .5),
+  400: Color.fromRGBO(0, 0, 0, .5),
   500: Color.fromRGBO(0, 0, 0, .6),
   600: Color.fromRGBO(0, 0, 0, .7),
   700: Color.fromRGBO(0, 0, 0, .8),

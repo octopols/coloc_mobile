@@ -34,8 +34,11 @@ flutter:
   assets:
     - images/
   fonts:
-    - family: Nunito
+    - family: GoogleSans
       fonts:
-        - asset: fonts/Nunito-Regular.ttf
-        - asset: fonts/Nunito-SemiBold.ttf
-        - asset: fonts/Nunito-Bold.ttf
+        - asset: fonts/GoogleSans-Regular.ttf
+        - asset: fonts/GoogleSans-Medium.ttf
+        - asset: fonts/GoogleSans-Bold.ttf
+        - asset: fonts/GoogleSans-Italic.ttf
+        - asset: fonts/GoogleSans-BoldItalic.ttf
+        - asset: fonts/GoogleSans-MediumItalic.ttf
